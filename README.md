@@ -16,5 +16,8 @@ Below is a screenshot of the first page of the project, showcasing the homepage 
 
 Feel free to explore the code and the design. Your feedback and suggestions are welcome!
 
+![ezgif-5-1873253bd3](https://github.com/Reemaharbi/University-website/assets/97175030/617171e4-5fdb-49ff-990c-acc024868fca)
+
+
 
 ![_D__rima_Desktop_uni_web%20programming%20tutorials_Web%20Prog%20Project_main htm](https://github.com/Reemaharbi/University-website/assets/97175030/a1b3be84-b066-4bf4-9e18-16442adaa304)
