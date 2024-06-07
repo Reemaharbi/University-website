@@ -1,0 +1,1018 @@
+
+
+@font-face{
+   
+    src: url(fonts/JuliusSansOne-Regular.ttf);
+ font-family: JSO;
+}
+
+
+*{
+    margin: 0;
+}
+
+
+/* Body styles */
+body{
+
+    background-color: hsl(200,15%,90%);
+    font-family:JSO;
+    line-height: 2em;
+    margin: 0px 0px;
+
+    width: 100%;  
+min-width: 1000px;
+max-width: 1400px;
+
+
+}
+
+
+
+/* Heading styles */
+header{
+   background-color: rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    margin: 30px;
+   min-width: 1300px;
+
+}
+header h1 img{
+   
+margin: 20px 45px ;
+text-align:center;
+ filter: brightness(65%);
+
+ min-width: 1000px;
+
+}
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+
+header h2{
+    font-family:JSO;
+    color: black;
+    font-size: 2.5em;
+    font-weight: 1.1em;
+    text-indent: 1em;
+    padding: 20px ;
+    text-align: center;
+    min-width: 1300px;
+}
+
+/* Navigation list styles */
+
+.logo img{
+    width: 150px;
+    float: left;
+    padding-left: 30px; 
+    margin-left: 40px;
+}
+
+
+.navbar nav ul{
+    background-color: hsl(200,15%,90%);
+    
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 20px 0px;
+
+    width: 100%
+    
+   
+}
+.navbar nav ul li a{
+
+    color: black;
+    text-decoration: none;
+   font-family:JSO;
+   font-weight: bold;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+
+}
+
+.navbar nav ul li{
+   background-color: hsl(200,15%,90%);
+    line-height: 3.0em;
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+}
+.navbar nav ul li:hover{
+   background-color: white;
+}
+
+section .overview{
+    margin:30px;
+     position: relative;
+    width: 96%;
+    height: 65%;
+    background: white;
+    float: left;
+    box-sizing: border-box;
+    min-width: 1300px;
+    transition: 0.2s;
+}
+section .overview h1{
+     
+    
+    background: white;
+    float: left;
+    box-sizing: border-box;  
+      padding: 40px;
+       margin: 10;
+   
+    font-size: 30px;
+    
+    text-align: center;
+}
+section .overview h1:after{
+    content: "";
+    width: 70px;
+    height: 4px;
+    display: block;
+    background: black;
+    margin-top: 15px;
+
+}
+section .overview p{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px;
+     
+    width: 60%;
+    height: 100%;
+    
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 25px;
+
+}
+
+section .overview .pic{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    color: white;
+    box-sizing: border-box;
+    width: 35%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    
+
+}
+section .overview  a{
+      display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 15px;
+    border: 2px solid white;
+    margin-top: 0px;
+    font-size: 14px;
+    transition: 0.5s;
+    float: left;
+    box-shadow: 5px 10px #888888;
+    background: white;
+    margin-top: 23%;
+    color: hsl(250,30%,30%);
+
+}
+section .overview  a:hover{
+     background:hsl(250,30%,30%);
+    color: #fff;
+    border-color: hsl(250,30%,30%);
+}
+
+section .overview .details{
+     height: 50px;
+  
+  color: black;
+  padding: 30px;
+    
+
+
+}
+
+
+section .otheroverview{
+    margin:30px;
+     position: relative;
+    width: 96%;
+    height: 65%;
+    background: white;
+    float: left;
+    box-sizing: border-box;
+    min-width: 1300px;
+    transition: 0.2s;
+}
+section .otheroverview h1{
+     
+    
+    background: white;
+    float: left;
+    box-sizing: border-box;  
+      padding: 40px;
+       margin: 10;
+   
+    font-size: 30px;
+    
+    text-align: center;
+}
+section .otheroverview h1:after{
+    content: "";
+    width: 70px;
+    height: 4px;
+    display: block;
+    background: black;
+    margin-top: 15px;
+    margin-bottom: -30px;
+
+}
+section .otheroverview p{
+    
+    font-weight: bold;
+    padding:90px;
+     
+    width: 60%;
+    height: 100%;
+    
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 34px;
+
+}
+section .otheroverview .pic img{
+   
+     
+    width: 60%;
+    height: 80%;
+    margin-top: 20px;
+    border: 3px solid #ccc;
+    border-color: black;
+    border-image: none;
+   
+    border-style: solid;
+    border-width: 5px;
+  
+}
+
+section .otheroverview .pic{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    color: white;
+    box-sizing: border-box;
+    width: 35%;
+    height: 100%;
+    float: right;
+    text-align: center;
+
+    
+
+}
+section .otheroverview  a{
+      display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 15px;
+    border: 2px solid white;
+    margin-top: 0px;
+    font-size: 14px;
+    transition: 0.5s;
+    float: left;
+    box-shadow: 5px 10px #888888;
+    background: white;
+    margin-top: 15%;
+    color: hsl(250,30%,30%);
+
+}
+section .otheroverview  a:hover{
+     background:hsl(250,30%,30%);
+    color: #fff;
+    border-color: hsl(250,30%,30%);
+}
+
+section .otheroverview .details{
+     height: 50px;
+  
+  color: black;
+  padding: 30px;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+section .ACCREDITATIONS{
+    margin-top: 40px;
+    height: 35%;
+    background: #262626;
+    float: left;
+   margin: 40px -30px;
+   min-width: 1300px;
+    
+}
+section .ACCREDITATIONS h1{
+    padding: 20px;
+    margin-left: 200px;
+    color: white;
+    width: 50%;
+    font-size: 22px;
+
+}
+
+section .ACCREDITATIONS h1:after{
+    content: "";
+    width: 70px;
+    height: 4px;
+    display: block;
+    background: white;
+    margin-top: 6px;
+
+}
+section .ACCREDITATIONS .details p{
+    padding: 0px;
+    padding-left: 200px;
+    color: white;
+    width: 60%;
+    font-size: 12px;
+
+
+}
+
+section .ACCREDITATIONS .pic{
+       position: relative;
+    padding: 50px;
+    color: white;
+    box-sizing: border-box;
+    width: 30%;
+   height: 90%;
+    float: right;
+    margin-top: -95px;
+    text-align: center;
+    margin-right: 200px;
+
+    
+
+}
+section .ACCREDITATIONS .details a{ 
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 5px;
+    border: 2px solid white;
+    margin-left: 200px;
+font-weight: bold;
+    font-size: 10px;
+    transition: 0.5s;
+    float: left;
+    box-shadow: 5px 5px #888888;
+    background: white;
+    color: hsl(250,30%,30%);
+    }
+
+section .ACCREDITATIONS .details a:hover{
+     background:hsl(250,30%,30%);
+    color: #fff;
+    border-color: hsl(250,30%,30%);
+}
+
+
+
+
+
+#Departments{
+    min-width: 1300px;
+}
+
+
+#Departments h1{
+    font-family:JSO;
+    color: black;
+    font-size: 2.0em;
+    font-weight: 1.1em;
+    text-indent: 1em;
+    
+    text-align: center;
+    margin-top: 13%;
+    /*margin-bottom: -30px;*/
+    
+}
+
+
+#Departments nav ul{
+    background-color: hsl(200,15%,90%);
+    /*background: rgba(0,0,0,0.5);*/
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 0px 0px;
+    margin-bottom: 10%;
+    width: 100%
+   
+}
+
+#Departments nav ul li a{
+
+    color: white;
+    text-decoration: none;
+   font-family:JSO;
+   font-weight: bold;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    
+
+}
+
+#Departments nav ul li{
+    background: rgba(0,0,0,0.5);
+    line-height: 3.0em;
+    list-style-type: none;
+    padding: 35px;
+    display: inline-block;
+}
+#Departments nav ul li:hover{
+    background-color: hsl(250,30%,30%);
+    transition: 0.4s;
+}
+
+
+
+
+
+#progsanddeg h1{
+    font-family:JSO;
+    color: black;
+    font-size: 2.0em;
+    font-weight: 1.1em;
+    text-indent: 1em;
+    
+    text-align: center;
+    margin-top: 15%;
+    /*margin-bottom: -30px;*/
+    
+}
+#progsanddeg nav {
+  
+    width: 40%;
+    margin-left: 30%;
+   
+}
+#progsanddeg nav ul{
+    background-color: hsl(200,15%,90%);
+    /*background: rgba(0,0,0,0.5);*/
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    margin: 0% 0% 7% 0%;
+    width: 100%;
+   
+}
+
+#progsanddeg nav ul li{
+    background: rgba(0,0,0,0.5);
+    line-height: 1.5em;
+    list-style-type: none;
+    padding: 30px;
+    margin: 10px;
+    display: inline-block;
+}
+#progsanddeg nav ul li a{
+
+    color: white;
+    text-decoration: none;
+   font-family:JSO;
+   font-weight: bold;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    
+
+}
+#progsanddeg nav ul li:hover{
+    background-color: hsl(250,30%,30%);
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 470px; 
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  background-color: #262626;
+}
+.column h1{
+       font-family:JSO;
+   font-weight: 1.0em;
+    font-size: 2.0em;
+    text-align: left;
+    margin: 3% 25%;
+    padding-left: 20px;
+    color: white;
+}
+ .column h1:after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    display: block;
+    background: white;
+    margin-top: 5px;
+
+}
+.column nav{
+    
+  
+    padding-left: 3em;
+    margin-bottom: 0%;
+    display: inline-block;
+    float: left;
+    width: 90%;
+    margin-top:20px;
+
+}
+.column nav ul{
+      color: white;
+    text-decoration: none;
+    font-family:JSO;
+    font-weight: bolder;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+.column nav ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-family:JSO;
+    font-weight: bolder;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    padding: 5px;
+
+}
+.column nav ul li:hover{
+    background-color:hsl(250,30%,30%);
+    transition: 0.4s;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  box-sizing: border-box;}
+
+
+
+
+
+/*media*/
+
+
+
+section .media{
+    
+    height: 29%;
+    background: #262626;
+    float: center;
+   margin:0px -30px;
+
+
+    
+}
+section .media h1{
+    padding: 50px;
+    margin-left: 200px;
+    color: white;
+    width: 50%;
+    font-size: 50px;
+
+
+}
+
+
+section .media .pic {
+     position: relative;
+     width: 250px;
+     height: 150px;
+     margin-left:550px;
+
+    
+
+}
+section .media .pic img {
+     position: absolute;
+     top:0;
+     left:0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+    
+
+}
+
+section .media .pic2 {
+     position: relative;
+     width: 250px;
+     height: 150px;
+     margin-left: 250px;
+    margin-top: -150px;
+
+}
+section .media .pic2 img {
+     position: absolute;
+     top:0;
+     left:0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+    
+
+}
+section .media .details {
+
+    position: relative;
+     margin-left: 1100px;
+    margin-top: -75px;
+
+}
+section .media .details a{ 
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 5px;
+    border: 2px solid white;
+    margin-left: 50px;
+position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+    float: left;
+    box-shadow: 5px 5px #888888;
+    background: white;
+    color: hsl(250,30%,30%);
+    }
+
+section .media .details a:hover{
+     background:hsl(250,30%,30%);
+    color: #fff;
+    border-color: hsl(250,30%,30%);
+}
+
+section .media h1:after{
+    content: "";
+    width: 70px;
+    height: 10px;
+    display: block;
+    background: white;
+    margin-top: 25px;
+
+}
+
+
+
+
+
+
+/* Section styles */
+
+section{
+    margin:30px;
+    height: 100vh;
+    min-width: 1300px;
+
+}
+
+
+
+section .events h1{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase ;
+    text-align: center;
+
+}
+section .events h1:after{
+    content: "";
+    width: 70px;
+    height: 4px;
+    display: block;
+    background: white;
+    margin-top: 6px;
+    margin-left: 126px;
+
+
+}
+
+
+section .events{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    float: right;
+    box-sizing: border-box;
+    margin-top:  50px;
+}
+section .events ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin:0;
+    padding: 25px;
+    box-sizing: border-box; 
+
+}
+
+section .events ul li{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    height: 125px;
+}
+section .events ul h1 {
+ height: 50px;
+  background: #262626;
+  color: white;
+  padding: 30px;
+}
+section .events ul li .time{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    color: white;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: 0.5s;
+
+
+
+}
+section .events ul li:hover .time{
+    background: hsl(250,30%,30%);
+}
+section .events ul li .details{
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 23px;
+
+}
+
+section .events ul li .details a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 15px;
+    border: 2px solid white;
+    margin-top: 0px;
+    font-size: 14px;
+    transition: 0.5s;
+    float: right;
+    box-shadow: 5px 10px #888888;
+    background: white;
+    color: hsl(250,30%,30%);
+    
+}
+section .events ul li .details a:hover{
+    background:hsl(250,30%,30%);
+    color: #fff;
+    border-color: hsl(250,30%,30%);
+}
+
+/*our people*/
+
+
+section .ppl h1{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase ;
+    text-align: center;
+
+}
+section .ppl h1:after{
+    content: "";
+    width: 70px;
+    height: 4px;
+    display: block;
+    background: white;
+    margin-top: 6px;
+    margin-left: 153px;
+
+
+}
+
+
+section .ppl{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    float: right;
+    box-sizing: border-box;
+    margin-top:  50px;
+}
+section .ppl ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin:0;
+    padding: 25px;
+    box-sizing: border-box; 
+    width: 600px;
+
+}
+
+section .ppl ul li{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    height: 125px;
+}
+section .ppl ul h1 {
+ height: 50px;
+  background: #262626;
+  color: white;
+  padding: 30px;
+}
+section .ppl ul li .time{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    color: white;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: 0.5s;
+
+
+}
+section .ppl ul li .time img{
+    margin-top: -12px;
+    width: 90px;
+    height: 100px;
+
+    border: 3px solid #ccc;
+        border-color: white;
+        border-image: none;
+       
+        border-style: solid;
+        border-width: 3px;
+}
+
+
+section .ppl ul li:hover .time{
+    background: hsl(250,30%,30%);
+}
+section .ppl ul li .details{
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 23px;
+
+}
+
+section .ppl ul li .details a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 15px;
+    border: 2px solid white;
+    margin-top: -30px;
+    font-size: 14px;
+    transition: 0.5s;
+    float: right;
+    box-shadow: 5px 10px #888888;
+    background: white;
+    color: hsl(250,30%,30%);
+    
+}
+section .ppl ul li .details a:hover{
+    background:hsl(250,30%,30%);
+    color: #fff;
+    border-color: hsl(250,30%,30%);
+}
+
+/* Footer styles */
+/*
+footer {
+background-color: rgb(55,102,55);
+color: white;
+color: rgba(255,255,255,0.8);
+text-align: center;
+font: normal small-caps 0.8em/4em 'Times New Roman' , Times, serif;
+}*/
+
+
+footer .footerdiv {
+    background: #262626;
+    padding: 70px;
+    padding-top: 0px;
+    color: white;
+    margin-top:  90px;
+
+}
+.footnavbar .logo img{
+    width: 150px;
+    float: left;
+    padding-left: 30px; 
+    margin-left: 40px;
+    padding: 40px;
+    height: 150px;
+    width: 230px;
+}
+
+
+
+.footnavbar nav ul{
+    background-color: #262626;
+    
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 20px 0px;
+margin-top: 130px;
+    width: 100%
+    
+   
+}
+.footnavbar nav ul li a{
+
+    color: white;
+    text-decoration: none;
+   font-family:JSO;
+   font-weight: bold;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+
+}
+
+.footnavbar nav ul li{
+   background-color: #262626;
+    line-height: 3.0em;
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+}
+.footnavbar nav ul li:hover{
+   background-color: grey;
+   color: black;
+}
+footer {
+background-color: rgb(55,102,55);
+color: white;
+color: rgba(255,255,255,0.8);
+text-align: center;
+font: normal small-caps 0.8em/4em 'Times New Roman' , Times, serif;
+
+}
+footer #foot p{
+line-height: 0em;
+}
